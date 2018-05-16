@@ -37,7 +37,8 @@ def sum_array(array)
 end
     
 def add_s(array)
-  array.each_with_index.collect { |x,index| x.insert(-1, "s") }
+  array.each_with_index.collect do |x|
+    x.insert(-1, "s")
 end
   
   

@@ -37,7 +37,7 @@ def sum_array(array)
 end
     
 def add_s(array)
-  array.each { |x| x.reject == feet && x.insert(-1, "s") }
+  array.each { |x| x.rejects == feet && x.insert(-1, "s") }
 end
   
   

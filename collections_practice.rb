@@ -41,7 +41,7 @@ def add_s(array)
   if index != 1
     array.each_with_index.collect do |x,index|
       x.insert(-1, "s")
-      index = index + 1
+      count += 1
     end
     array
   end

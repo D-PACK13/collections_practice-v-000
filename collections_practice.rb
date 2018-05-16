@@ -42,6 +42,7 @@ def add_s(array)
     array.each_with_index.collect do |x,index|
       x.insert(-1, "s")
       i = i + 1
+    end
   end
   array
 end

@@ -41,7 +41,6 @@ def add_s(array)
       if index != 1
       x.insert(-1, "s")
     end
-    array
   end
 end
   

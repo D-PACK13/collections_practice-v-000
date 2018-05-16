@@ -43,8 +43,8 @@ def add_s(array)
       x.insert(-1, "s")
       i = i + 1
     end
+    array
   end
-  array
 end
   
   

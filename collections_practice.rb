@@ -39,7 +39,7 @@ end
 def add_s(array)
   count = 0
   array.each_with_index.collect do |x,index|
-      if count != 1
+      if index != 1
       x.insert(-1, "s")
       count += 1
     end

@@ -43,7 +43,6 @@ def add_s(array)
       x.insert(-1, "s")
       count += 1
     end
-    array
   end
 end
   

@@ -37,8 +37,10 @@ def sum_array(array)
 end
     
 def add_s(array)
+  i = 0
   array.each_with_index.collect do |x,index|
     x.insert(-1, "s")
+    i = i + 1
   end
 end
   
